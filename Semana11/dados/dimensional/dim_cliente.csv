@@ -1,0 +1,202 @@
+﻿sk_cliente;id_cliente;nome;sexo;data_nascimento;idade;faixa_etaria;cidade;estado;regiao;data_cadastro
+0;-1;Cliente Não Identificado;Não Informado;;;Não informado;Não Informado;Não Informado;Não Informado;
+1;1;Brenda Alves;M;19/10/1957;68;60+;Salvador;BA;Nordeste;12/08/2023
+2;2;Lara Abreu;M;21/11/1998;27;25-34;Rio de Janeiro;RJ;Sudeste;26/08/2024
+3;3;Marcos Vinicius Barros;M;11/07/1980;46;45-59;Niterói;RJ;Sudeste;11/12/2023
+4;4;Gustavo Henrique Rios;F;09/02/1998;28;25-34;Campinas;SP;Sudeste;23/01/2024
+5;5;Sara Gonçalves;F;29/03/1956;70;60+;São Paulo;SP;Sudeste;24/10/2023
+6;6;Matheus Garcia;M;04/08/1964;62;60+;São Paulo;SP;Sudeste;17/11/2024
+7;7;Fernanda Cassiano;M;22/06/1991;35;35-44;Niterói;RJ;Sudeste;17/10/2024
+8;8;João Moura;M;17/11/1952;73;60+;Fortaleza;CE;Nordeste;09/03/2023
+9;9;André Barbosa;M;03/09/2007;18;18-24;Rio de Janeiro;RJ;Sudeste;10/09/2023
+10;10;Pedro Fogaça;F;04/09/1969;56;45-59;Natal;RN;Nordeste;04/04/2023
+11;11;Beatriz Aragão;M;09/07/1984;42;35-44;São Luís;MA;Nordeste;24/04/2024
+12;12;Gabriel da Rocha;M;09/12/1973;52;45-59;Florianópolis;SC;Sul;11/06/2023
+13;13;Ana Cecília Pinto;F;29/04/2007;19;18-24;Londrina;PR;Sul;15/06/2023
+14;14;Julia Cardoso;M;14/01/1960;66;60+;Joinville;SC;Sul;11/11/2023
+15;15;Giovanna Silva;F;16/10/1997;28;25-34;Rio de Janeiro;RJ;Sudeste;16/07/2024
+16;16;Srta. Ísis Andrade;M;18/01/1968;58;45-59;Ribeirão Preto;SP;Sudeste;18/11/2024
+17;17;Lucas Gabriel Viana;F;12/10/2002;23;18-24;Salvador;BA;Nordeste;08/01/2023
+18;18;Luiz Fernando Ramos;M;26/12/1974;51;45-59;São Paulo;SP;Sudeste;16/05/2023
+19;19;Pedro Henrique Abreu;F;31/01/1967;59;45-59;Natal;RN;Nordeste;29/12/2023
+20;20;Maria Helena Rocha;F;21/10/1959;66;60+;Curitiba;PR;Sul;03/07/2024
+21;21;Isaac Rocha;F;17/05/1999;27;25-34;Londrina;PR;Sul;16/01/2023
+22;22;Felipe Sampaio;F;24/12/1985;40;35-44;São Paulo;SP;Sudeste;03/01/2023
+23;23;Isabella da Mota;M;11/11/1999;26;25-34;Vitória;ES;Sudeste;31/10/2023
+24;24;Gustavo Leão;F;10/10/1992;33;25-34;Rio de Janeiro;RJ;Sudeste;24/03/2023
+25;25;Yasmin Alves;F;02/02/1972;54;45-59;Cuiabá;MT;Centro-Oeste;05/03/2024
+26;26;Ana Júlia Ferreira;M;01/06/1971;55;45-59;Recife;PE;Nordeste;18/11/2024
+27;27;Bruna Vasconcelos;F;05/07/2000;26;25-34;Salvador;BA;Nordeste;02/06/2024
+28;28;Thiago Ramos;M;26/09/1998;27;25-34;Niterói;RJ;Sudeste;31/10/2024
+29;29;Caio da Mota;F;09/08/1959;67;60+;Florianópolis;SC;Sul;11/09/2024
+30;30;Isaque Silveira;F;23/07/1954;72;60+;Rio de Janeiro;RJ;Sudeste;11/10/2023
+31;31;Rafael da Mata;F;15/05/1988;38;35-44;São Paulo;SP;Sudeste;12/07/2024
+32;32;Kevin Albuquerque;M;31/07/1953;73;60+;São Paulo;SP;Sudeste;13/09/2023
+33;33;Benício Guerra;F;29/03/1971;55;45-59;Recife;PE;Nordeste;01/07/2023
+34;34;Mariane das Neves;M;06/04/1972;54;45-59;Campo Grande;MS;Centro-Oeste;19/12/2024
+35;35;João Pedro Santos;M;19/04/1991;35;35-44;Campinas;SP;Sudeste;22/08/2023
+36;36;Laura Macedo;M;14/09/1995;30;25-34;Rio de Janeiro;RJ;Sudeste;03/07/2024
+37;37;Erick Melo;F;25/10/1973;52;45-59;Belo Horizonte;MG;Sudeste;20/12/2023
+38;38;Aurora Dias;M;25/12/1953;72;60+;Natal;RN;Nordeste;04/12/2024
+39;39;Pedro Lucas Sampaio;M;16/08/1979;47;45-59;Natal;RN;Nordeste;08/05/2023
+40;40;Isabelly Marques;F;27/09/1999;26;25-34;Natal;RN;Nordeste;11/11/2024
+41;41;Rafaela Ferreira;M;14/01/1950;76;60+;Belém;PA;Norte;16/03/2024
+42;42;Pedro Lucas Brito;F;14/06/1992;34;25-34;Brasília;DF;Centro-Oeste;18/10/2023
+43;43;Isaac Pires;F;13/11/1967;58;45-59;Florianópolis;SC;Sul;01/05/2024
+44;44;Emilly Cavalcante;M;13/06/1984;42;35-44;Caxias do Sul;RS;Sul;01/06/2023
+45;45;Otávio Sales;F;19/08/1969;57;45-59;Salvador;BA;Nordeste;13/12/2024
+46;46;Maria Câmara;M;26/08/1997;29;25-34;Florianópolis;SC;Sul;29/03/2024
+47;47;José Miguel Mendes;M;12/04/1964;62;60+;Caxias do Sul;RS;Sul;11/09/2023
+48;48;Isabel Melo;M;13/12/1956;69;60+;Goiânia;GO;Centro-Oeste;10/12/2023
+49;49;Maria Eduarda Rios;F;12/03/1969;57;45-59;Belo Horizonte;MG;Sudeste;05/12/2023
+50;50;Gabriel Campos;M;03/10/1951;74;60+;Joinville;SC;Sul;27/12/2023
+51;51;Agatha da Mota;F;30/12/1998;27;25-34;Belo Horizonte;MG;Sudeste;07/10/2023
+52;52;Maria Cecília Moraes;F;07/12/1991;34;25-34;Curitiba;PR;Sul;30/06/2024
+53;53;Clara Azevedo;F;21/04/1966;60;60+;São Paulo;SP;Sudeste;02/12/2023
+54;54;Aylla Dias;M;27/10/1987;38;35-44;Rio de Janeiro;RJ;Sudeste;26/04/2024
+55;55;Maria Rios;F;13/10/1952;73;60+;São Paulo;SP;Sudeste;21/01/2023
+56;56;Amanda Pereira;M;27/12/1972;53;45-59;Caxias do Sul;RS;Sul;13/09/2024
+57;57;Manuela Castro;M;27/12/1977;48;45-59;Belém;PA;Norte;23/07/2023
+58;58;Bruna Ferreira;F;13/11/2003;22;18-24;São Paulo;SP;Sudeste;02/08/2024
+59;59;André Monteiro;M;08/09/1987;38;35-44;Brasília;DF;Centro-Oeste;12/10/2024
+60;60;Alícia Duarte;M;26/03/1974;52;45-59;Campo Grande;MS;Centro-Oeste;29/08/2024
+61;61;Luiz Fernando Ferreira;M;10/09/1991;34;25-34;Niterói;RJ;Sudeste;21/05/2024
+62;62;Ana Lívia Melo;M;26/06/2003;23;18-24;Cuiabá;MT;Centro-Oeste;13/06/2024
+63;63;Ana Cecília Machado;M;17/09/1992;33;25-34;Belém;PA;Norte;18/01/2023
+64;64;João Miguel Gomes;M;28/08/1999;27;25-34;São Paulo;SP;Sudeste;17/07/2024
+65;65;Maria Júlia Cardoso;F;23/04/1978;48;45-59;Belo Horizonte;MG;Sudeste;07/12/2024
+66;66;Breno da Rocha;M;17/07/2003;23;18-24;Ribeirão Preto;SP;Sudeste;18/07/2023
+67;67;Larissa Sá;M;24/08/1999;27;25-34;Belo Horizonte;MG;Sudeste;10/05/2023
+68;68;Rafaela Freitas;M;08/07/1989;37;35-44;Salvador;BA;Nordeste;22/02/2023
+69;69;Marcelo Câmara;F;12/08/1963;63;60+;Niterói;RJ;Sudeste;08/11/2023
+70;70;Vitória Lima;M;01/04/1970;56;45-59;São Paulo;SP;Sudeste;29/03/2024
+71;71;Maria da Costa;F;26/11/1958;67;60+;Belo Horizonte;MG;Sudeste;28/09/2023
+72;72;Lívia Carvalho;M;28/02/1992;34;25-34;Recife;PE;Nordeste;24/12/2024
+73;73;Maria Laura Nogueira;F;28/01/2006;20;18-24;Belo Horizonte;MG;Sudeste;11/07/2024
+74;74;Bryan Siqueira;M;21/05/2003;23;18-24;Rio de Janeiro;RJ;Sudeste;24/04/2024
+75;75;Maya da Mota;F;27/08/2003;23;18-24;Fortaleza;CE;Nordeste;27/11/2023
+76;76;Breno Oliveira;M;11/11/1951;74;60+;Caxias do Sul;RS;Sul;29/06/2023
+77;77;Davi Carvalho;F;11/02/1994;32;25-34;Florianópolis;SC;Sul;23/02/2024
+78;78;Thales Alves;F;05/12/1985;40;35-44;Belo Horizonte;MG;Sudeste;19/11/2023
+79;79;Stella Ferreira;M;05/09/1998;27;25-34;Niterói;RJ;Sudeste;12/07/2023
+80;80;Kevin Pimenta;F;10/04/1999;27;25-34;Florianópolis;SC;Sul;24/03/2024
+81;81;Ísis da Rocha;M;17/03/1964;62;60+;Campo Grande;MS;Centro-Oeste;19/07/2024
+82;82;Caroline Teixeira;M;27/08/1995;31;25-34;Curitiba;PR;Sul;09/05/2024
+83;83;Emanuel Monteiro;F;01/04/1962;64;60+;Florianópolis;SC;Sul;29/02/2024
+84;84;Pedro Carvalho;M;28/08/2002;24;18-24;Belo Horizonte;MG;Sudeste;02/04/2024
+85;85;Luiz Otávio Sá;F;04/12/1966;59;45-59;Joinville;SC;Sul;28/08/2023
+86;86;Letícia Pastor;M;15/03/1984;42;35-44;Cuiabá;MT;Centro-Oeste;29/10/2024
+87;87;Heloísa Silveira;M;02/01/1959;67;60+;Santos;SP;Sudeste;16/01/2023
+88;88;Gabrielly Jesus;F;29/08/1985;41;35-44;Natal;RN;Nordeste;21/11/2024
+89;89;Josué da Mota;F;16/07/1998;28;25-34;Cuiabá;MT;Centro-Oeste;29/08/2023
+90;90;José Miguel Souza;M;07/01/1959;67;60+;Salvador;BA;Nordeste;03/11/2023
+91;91;Cecilia Abreu;F;20/12/1986;39;35-44;Campo Grande;MS;Centro-Oeste;22/03/2023
+92;92;Ana Carolina Albuquerque;M;25/03/2007;19;18-24;Caxias do Sul;RS;Sul;13/11/2024
+93;93;Maria Luiza Lima;M;18/09/2002;23;18-24;São Paulo;SP;Sudeste;10/03/2024
+94;94;Maria Cecília Sales;M;13/04/1971;55;45-59;Fortaleza;CE;Nordeste;11/08/2024
+95;95;Yan Melo;F;09/10/2000;25;25-34;Belo Horizonte;MG;Sudeste;23/05/2024
+96;96;Bruna Rodrigues;F;11/02/2007;19;18-24;Goiânia;GO;Centro-Oeste;25/11/2024
+97;97;Otávio Ferreira;F;27/12/2007;18;18-24;São Luís;MA;Nordeste;27/03/2024
+98;98;Maria Júlia Moura;F;06/01/1968;58;45-59;São Paulo;SP;Sudeste;10/01/2024
+99;99;Gustavo Azevedo;M;24/06/1976;50;45-59;Florianópolis;SC;Sul;24/04/2024
+100;100;Luna da Costa;M;01/01/2000;26;25-34;Belém;PA;Norte;15/01/2023
+101;101;Vitor Gabriel Melo;M;15/04/2007;19;18-24;Niterói;RJ;Sudeste;27/04/2024
+102;102;Esther Aragão;M;02/01/2007;19;18-24;São Paulo;SP;Sudeste;06/11/2023
+103;103;Mateus Martins;F;20/09/1958;67;60+;Salvador;BA;Nordeste;19/05/2023
+104;104;Maria Vitória da Rocha;M;12/11/1963;62;60+;Vitória;ES;Sudeste;16/05/2024
+105;105;Breno Rios;M;08/03/1971;55;45-59;Caxias do Sul;RS;Sul;11/07/2024
+106;106;Maria Sophia Albuquerque;F;23/03/1958;68;60+;Campo Grande;MS;Centro-Oeste;03/09/2024
+107;107;Natália Nunes;F;21/09/1999;26;25-34;São Paulo;SP;Sudeste;27/08/2023
+108;108;Ian Cunha;M;30/08/1961;65;60+;Belo Horizonte;MG;Sudeste;23/04/2023
+109;109;Davi Miguel Vieira;F;02/06/1951;75;60+;Recife;PE;Nordeste;10/05/2023
+110;110;Maria Helena Barros;M;14/10/1959;66;60+;Natal;RN;Nordeste;21/09/2024
+111;111;Francisco Lopes;F;17/10/1952;73;60+;São Paulo;SP;Sudeste;16/02/2024
+112;112;João Felipe da Rosa;F;23/04/1963;63;60+;Curitiba;PR;Sul;10/10/2024
+113;113;André Gonçalves;M;25/04/2004;22;18-24;Porto Alegre;RS;Sul;01/11/2024
+114;114;Maria Clara Camargo;M;15/02/1987;39;35-44;Salvador;BA;Nordeste;13/02/2024
+115;115;Pietro Peixoto;F;19/07/1992;34;25-34;Curitiba;PR;Sul;06/04/2023
+116;116;Hellena Machado;F;29/07/1979;47;45-59;Curitiba;PR;Sul;12/11/2024
+117;117;Marcela Melo;F;19/07/1981;45;45-59;Belém;PA;Norte;06/08/2023
+118;118;Isabel Guerra;F;04/07/2001;25;25-34;Santos;SP;Sudeste;28/07/2024
+119;119;Raul Camargo;M;20/09/1977;48;45-59;São Luís;MA;Nordeste;05/07/2023
+120;120;Fernando Freitas;M;20/04/1969;57;45-59;Cuiabá;MT;Centro-Oeste;16/12/2023
+121;121;Ana Júlia Fogaça;F;17/12/1963;62;60+;Ribeirão Preto;SP;Sudeste;20/02/2023
+122;122;Laura Cavalcante;F;19/12/1995;30;25-34;Recife;PE;Nordeste;24/04/2023
+123;123;Isaac Costela;F;08/10/2003;22;18-24;Belo Horizonte;MG;Sudeste;05/08/2023
+124;124;Ana Liz da Mota;F;10/02/1984;42;35-44;São Luís;MA;Nordeste;15/11/2024
+125;125;Mirella Mendonça;M;26/12/1956;69;60+;Brasília;DF;Centro-Oeste;10/08/2024
+126;126;Augusto Brito;M;15/06/2005;21;18-24;Vitória;ES;Sudeste;06/01/2024
+127;127;Lorena Silveira;F;17/06/1980;46;45-59;São Paulo;SP;Sudeste;22/06/2023
+128;128;Matheus Borges;F;27/11/2007;18;18-24;São Paulo;SP;Sudeste;30/05/2023
+129;129;Carlos Eduardo Carvalho;M;03/05/2006;20;18-24;Niterói;RJ;Sudeste;31/07/2024
+130;130;Ana Júlia Viana;M;30/12/1978;47;45-59;São Luís;MA;Nordeste;11/03/2023
+131;131;João Cunha;F;18/07/1990;36;35-44;Florianópolis;SC;Sul;20/03/2023
+132;132;Vitor Gabriel Duarte;F;24/09/1999;26;25-34;Salvador;BA;Nordeste;08/08/2024
+133;133;Theo Ferreira;F;23/10/1980;45;45-59;Salvador;BA;Nordeste;26/06/2023
+134;134;Theo Nunes;M;14/06/1983;43;35-44;São Paulo;SP;Sudeste;13/12/2023
+135;135;Oliver Silveira;M;05/09/1984;41;35-44;Recife;PE;Nordeste;03/11/2024
+136;136;Kevin Sousa;M;31/10/1977;48;45-59;Belém;PA;Norte;14/11/2023
+137;137;Vinícius da Costa;F;23/03/1997;29;25-34;Joinville;SC;Sul;09/03/2024
+138;138;Pedro Henrique Ribeiro;F;17/08/1993;33;25-34;Florianópolis;SC;Sul;21/05/2023
+139;139;Bárbara Nascimento;F;19/03/1980;46;45-59;Santos;SP;Sudeste;07/06/2023
+140;140;Nathan Machado;M;02/12/1953;72;60+;Ribeirão Preto;SP;Sudeste;01/09/2023
+141;141;Gael Henrique Ramos;F;29/01/1992;34;25-34;Londrina;PR;Sul;07/08/2024
+142;142;Pietro Cassiano;F;01/12/1967;58;45-59;Londrina;PR;Sul;23/02/2023
+143;143;Mathias da Mata;M;09/03/1961;65;60+;Salvador;BA;Nordeste;07/10/2023
+144;144;Isaac Pastor;M;22/06/1990;36;35-44;Londrina;PR;Sul;29/02/2024
+145;145;Agatha Farias;F;30/01/1980;46;45-59;São Paulo;SP;Sudeste;28/04/2024
+146;146;Emanuel Siqueira;M;15/09/1951;74;60+;Fortaleza;CE;Nordeste;03/06/2023
+147;147;Luiza Pimenta;F;06/12/1960;65;60+;Joinville;SC;Sul;16/10/2024
+148;148;Alexandre Aragão;F;11/09/2006;19;18-24;Brasília;DF;Centro-Oeste;26/10/2023
+149;149;Marcos Vinicius Castro;F;27/01/1956;70;60+;Curitiba;PR;Sul;26/04/2024
+150;150;Ágatha da Luz;F;13/05/2006;20;18-24;São Paulo;SP;Sudeste;07/12/2023
+151;151;Renan Camargo;F;06/12/1992;33;25-34;Santos;SP;Sudeste;06/03/2023
+152;152;Ana Liz Cassiano;M;25/04/1978;48;45-59;Fortaleza;CE;Nordeste;10/07/2024
+153;153;Stella Oliveira;M;12/10/1979;46;45-59;Florianópolis;SC;Sul;23/03/2024
+154;154;Maria Laura Novaes;M;20/08/1994;32;25-34;Campo Grande;MS;Centro-Oeste;15/06/2024
+155;155;Julia Gomes;M;10/05/1976;50;45-59;Niterói;RJ;Sudeste;07/11/2024
+156;156;Samuel Sampaio;M;19/10/1953;72;60+;Belo Horizonte;MG;Sudeste;21/03/2024
+157;157;Maria Luiza Carvalho;F;09/05/1964;62;60+;Niterói;RJ;Sudeste;25/11/2024
+158;158;Melissa Cavalcanti;F;21/11/2000;25;25-34;Brasília;DF;Centro-Oeste;26/11/2024
+159;159;Caroline Ramos;M;16/09/1985;40;35-44;Londrina;PR;Sul;13/09/2023
+160;160;Larissa da Rosa;M;09/05/1973;53;45-59;Belém;PA;Norte;18/09/2024
+161;161;Maria Luiza Gomes;F;07/12/1989;36;35-44;Belo Horizonte;MG;Sudeste;24/11/2023
+162;162;Leandro Leão;F;19/03/2007;19;18-24;Recife;PE;Nordeste;04/06/2024
+163;163;Raul Casa Grande;M;05/05/2001;25;25-34;Rio de Janeiro;RJ;Sudeste;18/07/2024
+164;164;Mariane Mendes;M;28/02/1997;29;25-34;Santos;SP;Sudeste;11/08/2024
+165;165;Enzo Azevedo;F;18/06/1999;27;25-34;São Paulo;SP;Sudeste;13/05/2023
+166;166;Davi Fonseca;M;13/07/1964;62;60+;Curitiba;PR;Sul;19/08/2023
+167;167;Anthony da Rosa;M;02/06/1999;27;25-34;Uberlândia;MG;Sudeste;21/09/2024
+168;168;Asafe Novaes;M;16/04/2004;22;18-24;Joinville;SC;Sul;31/07/2024
+169;169;Ana Julia Brito;M;29/11/1968;57;45-59;São Paulo;SP;Sudeste;01/02/2023
+170;170;Caleb Freitas;M;07/06/1986;40;35-44;Florianópolis;SC;Sul;06/12/2024
+171;171;Maysa Cirino;M;26/12/1980;45;45-59;São Paulo;SP;Sudeste;11/06/2024
+172;172;Aylla Lopes;M;18/06/1984;42;35-44;Joinville;SC;Sul;13/06/2023
+173;173;Thiago Câmara;M;06/03/1996;30;25-34;Goiânia;GO;Centro-Oeste;12/11/2023
+174;174;Caleb Vieira;M;15/07/1954;72;60+;Florianópolis;SC;Sul;31/10/2024
+175;175;Luigi Fogaça;M;25/10/1982;43;35-44;Recife;PE;Nordeste;15/02/2024
+176;176;Ana Clara Porto;M;01/05/1999;27;25-34;São Paulo;SP;Sudeste;30/09/2024
+177;177;Luna Montenegro;F;20/10/1982;43;35-44;Recife;PE;Nordeste;05/06/2024
+178;178;Manuella Rocha;M;04/08/1996;30;25-34;Vitória;ES;Sudeste;24/05/2023
+179;179;Benjamin Costa;M;08/04/2003;23;18-24;Belo Horizonte;MG;Sudeste;05/06/2024
+180;180;Ana Julia Garcia;M;16/05/1987;39;35-44;Joinville;SC;Sul;05/12/2024
+181;181;Théo Campos;F;01/06/1970;56;45-59;Salvador;BA;Nordeste;24/06/2023
+182;182;Maria Alice Barbosa;F;12/02/1967;59;45-59;Florianópolis;SC;Sul;04/03/2024
+183;183;Alexia Camargo;F;03/08/1955;71;60+;Santos;SP;Sudeste;28/07/2024
+184;184;Ana Clara da Rocha;M;30/10/1997;28;25-34;Belo Horizonte;MG;Sudeste;23/11/2024
+185;185;Caio Barbosa;M;12/02/1972;54;45-59;São Luís;MA;Nordeste;19/08/2023
+186;186;Ana Clara Sampaio;M;11/06/1978;48;45-59;Belém;PA;Norte;08/10/2023
+187;187;Marcelo Albuquerque;M;21/02/1963;63;60+;Belo Horizonte;MG;Sudeste;21/12/2023
+188;188;Benjamim Sá;M;03/06/2000;26;25-34;Manaus;AM;Norte;23/08/2024
+189;189;Eduardo Nunes;M;20/08/1979;47;45-59;Rio de Janeiro;RJ;Sudeste;06/01/2023
+190;190;Bruno da Mota;F;01/11/1992;33;25-34;Belém;PA;Norte;22/10/2023
+191;191;João Vitor Carvalho;F;07/05/1953;73;60+;Belo Horizonte;MG;Sudeste;30/06/2023
+192;192;Isabel Azevedo;F;21/12/1975;50;45-59;Manaus;AM;Norte;09/09/2024
+193;193;Maria Flor Fonseca;M;15/01/1962;64;60+;Campinas;SP;Sudeste;26/04/2023
+194;194;Dom Cirino;F;20/06/1976;50;45-59;Belo Horizonte;MG;Sudeste;16/10/2024
+195;195;Elisa Carvalho;M;01/11/1992;33;25-34;Campo Grande;MS;Centro-Oeste;07/01/2023
+196;196;Fernando Pinto;F;25/05/2001;25;25-34;Niterói;RJ;Sudeste;04/01/2024
+197;197;Renan Pimenta;F;25/11/1977;48;45-59;Fortaleza;CE;Nordeste;30/10/2023
+198;198;Catarina da Cunha;M;09/07/1983;43;35-44;Uberlândia;MG;Sudeste;27/04/2024
+199;199;Eduardo Lima;M;06/05/1957;69;60+;São Luís;MA;Nordeste;06/01/2024
+200;200;Luiz Felipe Vasconcelos;F;23/02/1998;28;25-34;São Paulo;SP;Sudeste;16/06/2024

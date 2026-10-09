@@ -1,0 +1,5 @@
+﻿sk_pagamento;forma_pagamento
+1;Boleto
+2;Cartão de Crédito
+3;Cartão de Débito
+4;Pix

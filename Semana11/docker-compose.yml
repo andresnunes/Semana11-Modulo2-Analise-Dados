@@ -1,0 +1,25 @@
+# PostgreSQL 16 da Semana 11 (banco vendas_dw).
+# - Porta 5435 no host, para não conflitar com a Semana 10 (5434) nem com
+#   um PostgreSQL instalado no Windows (5432).
+# - As tabelas (schema "dw") são criadas pelo ETL: python etl/etl_vendas.py
+services:
+  postgres:
+    image: postgres:16
+    container_name: semana11_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
+      POSTGRES_DB: ${DB_NAME:-vendas_dw}
+    ports:
+      - "${DB_PORT:-5435}:5432"
+    volumes:
+      - semana11_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-postgres} -d ${DB_NAME:-vendas_dw}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  semana11_postgres_data:

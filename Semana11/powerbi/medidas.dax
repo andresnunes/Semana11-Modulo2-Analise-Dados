@@ -1,0 +1,109 @@
+// ============================================================================
+// DAX da Semana 11 - copie cada bloco para o Power BI Desktop
+// Tabela de dados: Vendas (arquivo dados/powerbi/vendas_powerbi.csv)
+// Passo a passo completo: powerbi/passo_a_passo_power_bi.md
+// ============================================================================
+
+
+// ----------------------------------------------------------------------------
+// TABELAS CALCULADAS  (Modelagem > Nova Tabela)
+// ----------------------------------------------------------------------------
+
+// Calendário: uma linha por dia, de 1º de janeiro do primeiro ano com venda
+// até 31 de dezembro do último. Necessária para a inteligência de tempo
+// (SAMEPERIODLASTYEAR). Depois de criar: marcar como tabela de datas e
+// relacionar Calendario[Data] (1) -> Vendas[Data da Venda] (*).
+Calendario =
+VAR PrimeiroAno = YEAR ( MIN ( Vendas[Data da Venda] ) )
+VAR UltimoAno = YEAR ( MAX ( Vendas[Data da Venda] ) )
+VAR Datas =
+    CALENDAR ( DATE ( PrimeiroAno, 1, 1 ), DATE ( UltimoAno, 12, 31 ) )
+RETURN
+    ADDCOLUMNS (
+        SELECTCOLUMNS ( Datas, "Data", [Date] ),
+        "Ano", YEAR ( [Data] ),
+        "Mês Número", MONTH ( [Data] ),
+        "Mês", FORMAT ( [Data], "mmm" ),
+        "Ano-Mês", FORMAT ( [Data], "yyyy-mm" ),
+        "Trimestre", "T" & QUARTER ( [Data] )
+    )
+
+// Resumo por categoria: tabela separada, calculada a partir das medidas.
+// Crie DEPOIS das medidas (ela usa [Faturamento], [Vendas Pagas] e [Margem %]).
+Resumo Categoria =
+SUMMARIZECOLUMNS (
+    Vendas[Categoria],
+    "Faturamento", [Faturamento],
+    "Vendas Pagas", [Vendas Pagas],
+    "Margem %", [Margem %]
+)
+
+
+// ----------------------------------------------------------------------------
+// MEDIDAS DOS KPIs  (na tabela _Medidas: Página Inicial > Nova Medida)
+// Mesmos números do dashboard Streamlit. Só vendas com status "Pago".
+// ----------------------------------------------------------------------------
+
+Faturamento =
+CALCULATE (
+    SUM ( Vendas[Valor Líquido] ),
+    Vendas[Status Pagamento] = "Pago"
+)
+// Esperado: R$ 367.498,32
+
+Vendas Pagas =
+CALCULATE (
+    COUNTROWS ( Vendas ),
+    Vendas[Status Pagamento] = "Pago"
+)
+// Esperado: 2.385
+
+Ticket Médio =
+DIVIDE ( [Faturamento], [Vendas Pagas] )
+// Esperado: R$ 154,09
+
+
+// ----------------------------------------------------------------------------
+// MÉTRICAS CUSTOMIZADAS (demonstração de DAX)
+// ----------------------------------------------------------------------------
+
+// 1) Margem %  -> SUMX (função iteradora: calcula linha a linha e soma)
+Margem % =
+VAR Lucro =
+    CALCULATE (
+        SUMX ( Vendas, Vendas[Valor Líquido] - Vendas[Custo Total] ),
+        Vendas[Status Pagamento] = "Pago"
+    )
+RETURN
+    DIVIDE ( Lucro, [Faturamento] )
+// Esperado: 47,83% no total | Acessórios 60,38% | Suplementos 39,53%
+
+// 2) Crescimento YoY %  -> inteligência de tempo (precisa da tabela Calendario)
+// Compara com o mesmo período do ano anterior, só até a data da última venda
+// (os dados vão até ago/2026; sem esse corte, 2026 seria comparado com 2025
+// inteiro). Só aparece quando há UM ano no contexto (fatia ou eixo por ano).
+Crescimento YoY % =
+VAR UltimaVenda =
+    CALCULATE ( MAX ( Vendas[Data da Venda] ), REMOVEFILTERS () )
+VAR Atual = [Faturamento]
+VAR AnoAnterior =
+    CALCULATE (
+        [Faturamento],
+        SAMEPERIODLASTYEAR ( Calendario[Data] ),
+        Calendario[Data] <= EDATE ( UltimaVenda, -12 )
+    )
+RETURN
+    IF (
+        HASONEVALUE ( Calendario[Ano] ) && NOT ISBLANK ( Atual ),
+        DIVIDE ( Atual - AnoAnterior, AnoAnterior )
+    )
+// Esperado com Ano = 2026: +10,83% (jan-ago/2026 contra jan-ago/2025)
+// Por mês em 2026: fev +82,65% | abr -18,77% | ago +28,89%
+
+// 3) Taxa de Cancelamento %  -> CALCULATE mudando o filtro só do numerador
+Taxa de Cancelamento % =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( Vendas ), Vendas[Status Pagamento] = "Cancelado" ),
+    COUNTROWS ( Vendas )
+)
+// Esperado: 7,20% no total | Marketplace 8,43% | Aplicativo 6,66%

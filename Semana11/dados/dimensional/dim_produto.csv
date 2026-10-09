@@ -1,0 +1,31 @@
+﻿sk_produto;id_produto;nome_produto;categoria;marca;preco_custo;preco_venda;ativo
+1;1;Whey Protein 900g;Suplementos;NutriMax;78,00;129,90;Sim
+2;2;Whey Protein Isolado 900g;Suplementos;NutriMax;125,00;199,90;Sim
+3;3;Creatina 300g;Suplementos;PowerLab;45,00;79,90;Sim
+4;4;BCAA 120 Cápsulas;Suplementos;PowerLab;32,00;59,90;Sim
+5;5;Pré-Treino 300g;Suplementos;PowerLab;55,00;99,90;Sim
+6;6;Barra de Proteína;Suplementos;NutriMax;3,20;6,50;Sim
+7;7;Glutamina 300g;Suplementos;PowerLab;38,00;69,90;Sim
+8;8;Colágeno Hidrolisado 250g;Suplementos;VitaBem;29,00;54,90;Sim
+9;9;Vitamina D 60 Cápsulas;Vitaminas;VitaBem;14,00;32,00;Sim
+10;10;Vitamina C 1g 30 Comprimidos;Vitaminas;VitaBem;9,50;24,90;Sim
+11;11;Multivitamínico 60 Cápsulas;Vitaminas;VitaBem;21,00;45,00;Sim
+12;12;Ômega 3 120 Cápsulas;Vitaminas;OceanVit;18,50;38,50;Sim
+13;13;Magnésio Dimalato 60 Cápsulas;Vitaminas;OceanVit;16,00;35,90;Sim
+14;14;Complexo B 60 Cápsulas;Vitaminas;Sem Marca;11,00;27,90;Sim
+15;15;Pasta de Amendoim 1kg;Alimentos Saudáveis;Grão Bom;17,00;34,90;Sim
+16;16;Granola sem Açúcar 500g;Alimentos Saudáveis;Grão Bom;9,00;19,90;Sim
+17;17;Aveia em Flocos 500g;Alimentos Saudáveis;Grão Bom;4,50;9,90;Sim
+18;18;Chia 200g;Alimentos Saudáveis;Sem Marca;6,00;14,90;Sim
+19;19;Mix de Castanhas 200g;Alimentos Saudáveis;Grão Bom;13,00;27,90;Sim
+20;20;Óleo de Coco 200ml;Alimentos Saudáveis;VitaBem;10,50;22,90;Sim
+21;21;Isotônico 500ml;Bebidas;HidraFit;2,80;6,90;Sim
+22;22;Bebida Proteica 250ml;Bebidas;NutriMax;5,50;11,90;Sim
+23;23;Chá Verde 20 Sachês;Bebidas;Sem Marca;5,00;12,90;Não
+24;24;Água de Coco 1L;Bebidas;HidraFit;6,20;13,90;Sim
+25;25;Coqueteleira 600ml;Acessórios;PowerLab;8,00;24,90;Sim
+26;26;Garrafa Térmica 1L;Acessórios;HidraFit;32,00;79,90;Sim
+27;27;Balança Digital de Cozinha;Acessórios;CasaFit;28,00;64,90;Sim
+28;28;Marmita Térmica;Acessórios;CasaFit;35,00;89,90;Sim
+29;29;Porta Cápsulas;Acessórios;CasaFit;4,00;14,90;Não
+30;30;Squeeze 750ml;Acessórios;HidraFit;9,00;29,90;Sim

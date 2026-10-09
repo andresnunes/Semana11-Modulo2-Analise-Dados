@@ -1,0 +1,11 @@
+Pedido;Data;Produto;Regiao;Quantidade;Preco_Unitario
+1001;01/09/2026;  notebook;Sul;2;R$ 3.500,00
+1002;01/09/2026;MOUSE;Sudeste;10;R$ 45,90
+1003;02/09/2026;Teclado ;Nordeste;5;R$ 120,00
+1004;03/09/2026;monitor;Sul;3;R$ 899,90
+1005;03/09/2026;Notebook ;Sudeste;1;R$ 3.500,00
+1006;04/09/2026;mouse;Sul;8;R$ 45,90
+1007;05/09/2026; TECLADO;Sudeste;4;R$ 120,00
+1008;05/09/2026;Monitor;Nordeste;2;R$ 899,90
+1009;06/09/2026;notebook;Nordeste;1;R$ 3.500,00
+1010;07/09/2026;Mouse ;Sul;6;R$ 45,90
