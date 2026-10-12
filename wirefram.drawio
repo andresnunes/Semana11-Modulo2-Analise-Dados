@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="LVd8lHegWGPQkXG_tLV2">
+    <mxGraphModel dx="638" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yaFa6O8XwBw_gm_kDChr-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="KPI1" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="yaFa6O8XwBw_gm_kDChr-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="KPI2" vertex="1">
+          <mxGeometry height="60" width="120" x="350" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="yaFa6O8XwBw_gm_kDChr-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Barras de comparação relacionadas ao KP1" vertex="1">
+          <mxGeometry height="60" width="240" x="230" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="yaFa6O8XwBw_gm_kDChr-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Timeline - Linhas temporais" vertex="1">
+          <mxGeometry height="100" width="150" x="230" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="yaFa6O8XwBw_gm_kDChr-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Filtros" vertex="1">
+          <mxGeometry height="100" width="90" x="380" y="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
